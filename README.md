@@ -44,6 +44,4 @@ Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&ut
 
 # cicd-next-jest
 
-UPDATE CI
-
-UPDATE 2
+ISSUE 1

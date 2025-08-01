@@ -4,6 +4,17 @@ type Params = {
   }>;
 };
 
+// Generate static params for static export
+export async function generateStaticParams() {
+  return [
+    { slug: "first-post" },
+    { slug: "second-post" },
+    { slug: "hello-world" },
+    { slug: "next-js-tutorial" },
+    { slug: "react-tips" },
+  ];
+}
+
 export async function generateMetadata({ params }: Params) {
   const { slug } = await params;
   return { title: `Post: ${slug}` };

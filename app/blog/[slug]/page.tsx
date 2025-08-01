@@ -14,7 +14,7 @@ export default async function Page({ params }: Params) {
   return (
     <>
       <h1>Slug: {slug}</h1>
-      <p>Hello world!</p>
+      <p>Hello world2!</p>
     </>
   );
 }

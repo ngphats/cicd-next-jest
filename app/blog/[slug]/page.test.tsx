@@ -21,5 +21,5 @@ it("App Router: Works with dynamic route segments", () => {
 
 it("App CI: Works with loading Hello world! is OK", () => {
   render(<TestPage params={{ slug: "Test" }} />);
-  expect(screen.getByText("MW")).toBeInTheDocument();
+  expect(screen.getByText("Hello world!")).toBeInTheDocument();
 });
